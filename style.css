@@ -152,11 +152,27 @@ h1{
 
 .planes{
     padding-top: 200px;
-    text-align: center;
+    text-align: left;
 }
 
 h3{
-    font-size: 50px;
+    font-size: 40px;
+}
+
+.planes-container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+}
+
+.planes-checkbox{
+    padding-top: 30px;
+}
+
+.planes-checkbox span{
+    padding: 10px;
 }
 
 
