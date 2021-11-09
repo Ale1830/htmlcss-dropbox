@@ -338,6 +338,28 @@ h3{
     margin-left: 35px;
 }
 
+/* Business  */
+
+.business{
+    width: 100%;
+    margin-top: 810px;
+}
+
+.container-business{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.container-business-first, .container-business-second, .container-business-third{
+    width: 30%;
+    height: 50%;
+}
+
+
+
+
 
 
 
