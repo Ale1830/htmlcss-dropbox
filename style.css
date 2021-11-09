@@ -180,20 +180,28 @@ h2{
     margin-top: 20px;
 }
 .col-first, .col-second, .col-third{
-   border: 1px solid lightgray;
+   border: 2px solid lightgray;
    float: left;
    margin-right: 20px;
    width: 30%;
-   text-align: left;
    padding-top: 10px;
 }
 
-.planes-col-container p{
-    text-align: center;
-    padding-bottom: 10px;
+hr{
+    color: lightgray;
+    size: 1px;
 }
 
+ .container-head {
+    text-align: center;
+}
 
+.planes-details{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.planes-introduction 
 
 
 
