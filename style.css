@@ -149,7 +149,11 @@ h1{
 }
 
 /* first-section-main */
-
+/* main{ */
+    /* width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+} */
 .planes{
     padding-top: 200px;
     text-align: left;
@@ -160,7 +164,7 @@ h2{
 }
 
 .planes-container{
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -178,11 +182,12 @@ h2{
 .planes-col-container{
     width: 100%;
     margin-top: 20px;
+    display: block;
 }
 .col-first, .col-second, .col-third{
    border: 2px solid lightgray;
    float: left;
-   margin-right: 20px;
+   margin-right: 40px;
    width: 30%;
    padding-top: 10px;
 }
@@ -192,6 +197,10 @@ hr{
     size: 1px;
 }
 
+.container-head hr{
+    margin-top: 10px;
+}
+
  .container-head {
     text-align: center;
 }
@@ -199,6 +208,134 @@ hr{
 .planes-details-first,.planes-details-second,.planes-details-buy,.planes-footer-list{
     text-align: left;
     padding-left: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.planes-footer-list{
+    padding-bottom: 150px;
+
+}
+
+.planes-footer-list ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+h6{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.line{
+    margin-left: 10px;
+    width: 15%;
+}
+ 
+.planes-details-buy p{
+    padding: 10px 0;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.planes-details-second p {
+    padding-top: 10px;
+}
+
+/* enterprise */
+.enterprise{
+    width: 97%;
+    clear: both;
+}
+
+.enterprise-head{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.enterprise-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    margin-top: 900px;
+    position: relative;
+}
+
+.button-vendite{
+    float: right;
+    margin-right: 20px;
+}
+
+.enterprise-details h2,h5,p{
+   padding: 20px;
+   margin-left:0;
+}
+
+.enterprise hr{
+    margin-bottom: 20px;
+}
+
+.enterprise h2{
+  margin-left: 20px;
+}
+
+.enterprise h5{
+    font-size: 15px;
+}
+
+/* partner */
+
+.partner {
+    width: 100%;
+    margin-top: 50px;
+    clear: both;
+}
+
+.partner-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.logo-partner{
+    float: left;
+    width: 60%;
+}
+
+.logo-partner img{
+    width: 100%;
+}
+
+
+
+.partner-details{
+    float: right;
+    width: 40%;
+}
+
+.partner-details h3,p,button{
+    width: 100%;
+    margin-left: 13px;
+}
+
+.partner-details h3{
+   margin-top: 50px;
+   margin-left: 30px;
+}
+
+.partner-details p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.partner-details button{
+    width: auto;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 35px;
 }
 
 
