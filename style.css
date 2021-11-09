@@ -196,12 +196,11 @@ hr{
     text-align: center;
 }
 
-.planes-details{
+.planes-details-first,.planes-details-second,.planes-details-buy,.planes-footer-list{
     text-align: left;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
-.planes-introduction 
 
 
 
