@@ -155,7 +155,7 @@ h1{
     text-align: left;
 }
 
-h3{
+h2{
     font-size: 40px;
 }
 
@@ -175,6 +175,23 @@ h3{
     padding: 10px;
 }
 
+.planes-col-container{
+    width: 100%;
+    margin-top: 20px;
+}
+.col-first, .col-second, .col-third{
+   border: 1px solid lightgray;
+   float: left;
+   margin-right: 20px;
+   width: 30%;
+   text-align: left;
+   padding-top: 10px;
+}
+
+.planes-col-container p{
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 
 
