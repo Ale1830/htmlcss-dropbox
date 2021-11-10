@@ -25,10 +25,6 @@ a{
     content:'';
 }
 
-.float-left{
-    float:left;
-}
-
 
 .logo{
     float: left;
@@ -133,6 +129,7 @@ font-size: 20px;
 .flash-col-right{
     width: 60%;
     position: absolute;
+    margin-top: -350px;
     right: 0;
     
 }
@@ -140,6 +137,7 @@ font-size: 20px;
 
 .flash-col-right img{
     width: 100%;
+
 
 }
 
@@ -260,7 +258,7 @@ h3{
     max-width: 1200px;
     margin: 0 auto;
     border: 2px solid lightgray;
-    margin-top: 900px;
+    margin-top: 50px;
     position: relative;
 }
 
@@ -291,13 +289,13 @@ h3{
 .partner {
     width: 100%;
     margin-top: 50px;
-    clear: both;
 }
 
 .partner-container{
     width: 100%;
     max-width: 1200px;
-    margin: 100px auto;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .logo-partner{
@@ -322,7 +320,7 @@ h3{
 }
 
 .partner-details h3{
-   margin-top: 50px;
+   margin-top: x;
    margin-left: 30px;
 }
 
@@ -342,20 +340,37 @@ h3{
 
 .business{
     width: 100%;
-    margin-top: 810px;
 }
 
 .container-business{
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
+    clear: both;
+    margin-top: 100px;
 
 }
 
-.container-business-first, .container-business-second, .container-business-third{
-    width: 30%;
+
+    
+
+.logo-first,.logo-second,.logo-third,.logo-fourth,.logo-fifth,.logo-sixth{
+    width: 33%;
     height: 50%;
+    float: left;
+    padding-right: 50px;
+
 }
+
+.container-business img,h3,p{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
 
 
 
