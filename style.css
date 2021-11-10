@@ -336,7 +336,7 @@ h3{
     margin-left: 35px;
 }
 
-/* Business  */
+/* Business logo 6  */
 
 .business{
     width: 100%;
@@ -368,6 +368,27 @@ h3{
 }
 
 
+/* team section  */
+
+.team {
+    width:66%
+}
+
+.team-container{
+    width: 20%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top :200px
+}
+
+.team-container a{
+    color:rgb(0, 97, 255); 
+    text-decoration: underline;
+}
+
+.team-container h2{
+    padding-bottom: 15px;
+}
 
 
 
