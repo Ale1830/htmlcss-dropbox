@@ -572,7 +572,46 @@ h3{
     display: none;
 }
 
+/* FOOTER  */
 
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.foot-container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.column{
+   width: 20%;
+   float: left;
+   margin-top:100px;
+   margin-bottom: 100px;
+}
+
+.foot-container li{
+    list-style-type: none;
+}
+
+.foot-container h4,li{
+    color: white;
+}
+
+.language{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.language span,i{
+    color: white;
+}
 
 
 
