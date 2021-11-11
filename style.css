@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
+    width: 100vw;
     background-color: rgb(255, 255, 255);
     font-family: 'Roboto';
 }
@@ -392,10 +392,106 @@ h3{
 
 
 
+/* members 8 logos float left and right  */
 
+.members{
+    width: 80%;
+    
+}
 
+.members-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
 
+}
 
+.left-section{
+    width: 30%;
+    max-height: 400px;
+    float: right;
+}
 
+.right-section{
+    width: 30%;
+    max-height: 400px;
+    float:right;
+}
 
+.left-section .first,.second,.third,.fourth{
+    width: 50%;
+    height:200px;
+    margin: 0 auto;
+    float:left;
+}
 
+.left-section img{
+    padding: 50px;
+}
+
+.right-section img{
+    padding: 50px;
+}
+
+.right-section .fifth,.sixth,.seventh,.eight{
+    width: 50%;
+    height:200px;
+    margin: 0 auto;
+    float:right;
+}
+
+.first{
+    background-color: lightgreen;
+    border: 10px solid rgba(127, 170, 127, 0.767);
+}
+
+.second{
+    background-color:brown;
+}
+
+.third{
+    background-color: lightskyblue;
+}
+
+.fourth{
+    background-color: red;
+}
+
+.fifth{
+    background-color: rgb(168, 17, 17);
+}
+
+.sixth{
+    background-color:rgb(180, 208, 231); 
+}
+
+.seventh{
+    background-color: blue;
+}
+
+.eight{
+    background-color: yellow;
+}
+
+.center-section{
+    width: 40%;
+    height: 400px;
+    background-color: lightgray;
+    float: right;
+    
+}
+
+.center-section img{
+    margin: 0 auto;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+.center-section hr{
+    margin-left:40px;
+    width: 3%;
+    margin-top: 10px;
+}
